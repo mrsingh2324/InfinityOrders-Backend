@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 app.use(cors({
-  origin: "https://www.infinityorders.live/",
+  origin: "https://www.infinityorders.live",
   credentials: false
 }));
 
