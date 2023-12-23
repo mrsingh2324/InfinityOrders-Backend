@@ -6,8 +6,8 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 app.use(cors({
-  origin: '*',
-  // credentials: true
+  origin: "https://www.infinityorders.live/",
+  credentials: false
 }));
 
 app.use(express.json());
